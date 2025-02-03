@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/477bfa2aa6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- main -->
+    <div class="mt-30 main font-semibold flex items-center flex-col gap-2 justify-center">
+        <div class="flex gap-3 justify-center items-center">
+            <i class="text-3xl text-gray-700 fa-brands fa-github"></i>
+            <h1 class="text-3xl pb-1 text-gray-800">Github Random Repositories</h1>
+        </div>
+        <div
+            class="main-menu mt-5 border cursor-pointer w-[350px] h-12 flex justify-between items-center p-5 rounded-xl">
+            <!-- heading -->
+            <div class="ml-5">
+                <h1 class="lang1 text-2xl text-center pb-1">Select an Language</h1>
+            </div>
+            <!-- arrow -->
+            <div class="rot mr-5">
+                <i class="text-xl fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+        <!-- hidden area -->
+        <div class="relative bg-gray-300 border-2 overflow-hidden rounded-xl overflow-y-auto ">
+            <!-- Showing Area -->
+            <div class="showing-area w-[350px] bg-gray-300 rounded-xl min-h-52">
+                <h1 class="flex text-center justify-start pl-5 pt-5 text-xl "><span class="name w-80"></span></h1>
+                <h1 class="text-gray-500 p-4 "><span class="desc text-left">Please select a language</span></h1>
+
+
+                <!-- icons -->
+                <div class="icons flex pt-5 absolute w-full bottom-2 justify-evenly hide">
+                    <div class="flex justify-center items-center gap-2 text-gray-400">
+                        <i class="fa-solid fa-circle text-yellow-500"></i>
+                        <span class="lang"></span>
+                    </div>
+                    <div class="flex justify-center items-center gap-2 text-gray-400">
+                        <i class="fa-solid fa-star"></i>
+                        <span class="star"></span>
+                    </div>
+                    <div class="flex items-center justify-center gap-2 text-gray-400">
+                        <i class="fa-solid fa-code-branch"></i>
+                        <span class="forks"></span>
+
+                    </div>
+                    <div class="flex justify-center items-center gap-2 text-gray-400">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <span class="issues"></span>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+            <!-- Drop down -->
+            <div class="drop-down bg-white relative w-[350px]  min-h-52 "></div>
+        </div>
+        <!-- Button -->
+        <div>
+            <button class="w-[350px] hide button  h-12 rounded-xl bg-black cursor-pointer">
+                <span class="btn-txt text-white">Refresh</span>
+            </button>
+        </div>
+    </div>
+    <div class="output flex items-center justify-center flex-col "></div>
+    <script src="script.js"></script>
+</body>
+
+</html>

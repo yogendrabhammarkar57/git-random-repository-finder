@@ -1,0 +1,80 @@
+.drop-down {
+    display: none;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10; /* Ensure it appears above */
+}
+
+.main {
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.drop-down.active {
+    transition: all 0.3s ease-in-out;
+    display: block;
+}
+
+.showing-area {
+    position: relative;
+    z-index: 5; /* Lower than drop-down */
+}
+
+.check {
+    display: none;
+}
+
+.check.open {
+    display: block;
+}
+
+.rot {
+    transition: all 0.3s ease-in-out;
+}
+
+.rotate {
+    transition: all 0.3s ease-in-out;
+    transform: rotate(180deg);
+}
+
+.active {
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.line {
+    left: 0;
+    position: absolute;
+    width: 350px;
+    height: 1px;
+    background-color: gray;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.errbtn {
+    background-color: red !important; /* Button turns red on error */
+    color: white;
+}
+
+.err {
+    background-color: rgb(209, 81, 81) !important; /* Background turns red on error */
+    color: white;
+
+}
+.error-msg{
+    color: white;
+}
