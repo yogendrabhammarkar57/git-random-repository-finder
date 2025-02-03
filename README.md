@@ -10,10 +10,10 @@ This project is a **GitHub Random Repository Finder** that allows users to selec
 - Error handling with UI feedback.
 
 ## 📷 Screenshot
-![Task Manager Preview](screenshot.png)
+![GitHub Random Repo Finder Preview](screenshot.png)
 
 ## 📚 Learn More  
-For more guidance on building a Task Tracker, check out this roadmap:  
+For more guidance on building a GitHub Random Repo Finder, check out this roadmap:  
 [GitHub Random Repository](https://roadmap.sh/projects/github-random-repo)
 
 
