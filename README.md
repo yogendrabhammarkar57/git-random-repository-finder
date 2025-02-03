@@ -9,6 +9,9 @@ This project is a **GitHub Random Repository Finder** that allows users to selec
 - Loading state while fetching data.
 - Error handling with UI feedback.
 
+## 📷 Screenshot
+![Task Manager Preview](screenshot.png)
+
 ## 📚 Learn More  
 For more guidance on building a Task Tracker, check out this roadmap:  
 [GitHub Random Repository](https://roadmap.sh/projects/github-random-repo)
